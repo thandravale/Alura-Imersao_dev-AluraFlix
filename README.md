@@ -1,0 +1,3 @@
+# AluraFlix
+
+Adicionando filmes favoritos.
