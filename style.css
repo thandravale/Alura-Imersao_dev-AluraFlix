@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("http://d279m997dpfwgl.cloudfront.net/wp/2020/12/GettyImages-1150049038-1000x630.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+p {
+  font-size: 22px;
+  color: #ffffff;
+  margin: 0 0 5px;
+  text-align: center;
+}
+
+nav input {
+  max-width: 550px;
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #dcdcdc;
+}
+
+nav button {
+  transition: 200ms ease-in-out;
+  border: 0;
+  color: #ffffff;
+  background: #b22222;
+  font-family: Poppins, sans-serif;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  opacity: 0.8;
+  border-radius: 15px;
+  animation: effect 0.6s;
+  transform-origin: center;
+}
